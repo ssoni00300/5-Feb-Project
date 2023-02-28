@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    padding: 1px 0.2%;
+    height: 11vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #000;
+}
+
+img {
+    width: 92px;
+    height: 32px;
+}
+
+.line {
+    width: 1px;
+    height: 52px;
+    background-color: #fff;
+    margin-left: 63px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 60px;
+    font-weight: 550;
+    margin-left: 80px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+    background: none;
+}
+
+button{
+    background: #b90ec5;
+    padding: 0.8rem 1.9rem;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 800;
+    width: fit-content;
+    border: none;
+    border-radius: 5px;
+}
+
+.Buy-button{
+    margin-left: 535px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+main{
+    text-align: center;
+    background: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:top ;
+    height: 89vh;
+}
+
+.Main-Section{
+    padding-top: 149.5px;
+}
+
+main h1{
+    color: #ffffff
+}
+
+.intro h1{
+    font-size: 80px;
+    font-weight: 1000;
+}
+
+.intro p{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 750;
+}
+
+.Request-btns{
+    margin-top: 52px;
+}
+
+main button{
+    font-size: 28px;
+}
